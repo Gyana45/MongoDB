@@ -1,0 +1,114 @@
+2022-02-28 15:06:49,561 mongo_operation INFO Creating database :Carbon
+2022-02-28 15:06:49,561 mongo_operation INFO Creating Collection:Carbon_col
+2022-02-28 15:06:49,561 mongo_operation INFO Connection created with Mongo db atlas
+2022-02-28 16:00:13,797 mongo_operation INFO Creating database :Carbon
+2022-02-28 16:00:13,797 mongo_operation INFO Creating Collection:Carbon_col
+2022-02-28 16:00:13,797 mongo_operation INFO Connection created with Mongo db atlas
+2022-02-28 16:00:13,797 mongo_operation INFO Listing all available Databases
+2022-02-28 16:00:14,963 mongo_operation INFO Available Databases are: ['Database_1', 'admin', 'local']
+2022-02-28 16:00:14,964 mongo_operation INFO Single record is present
+2022-02-28 16:00:15,124 mongo_operation INFO Record inserted into Collection:Collection(Database(MongoClient(host=['cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', ssl=True), 'Carbon'), 'Carbon_col')
+2022-02-28 16:04:11,001 mongo_operation INFO Creating database :Carbon
+2022-02-28 16:04:11,002 mongo_operation INFO Creating Collection:Carbon_col
+2022-02-28 16:04:11,002 mongo_operation INFO Connection created with Mongo db atlas
+2022-02-28 16:04:11,002 mongo_operation INFO Listing all available Databases
+2022-02-28 16:04:12,078 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-02-28 16:04:12,079 mongo_operation INFO list of records are there to insert
+2022-02-28 16:04:12,165 mongo_operation INFO 2 records inserted into collection
+2022-02-28 16:45:16,137 mongo_operation INFO Creating database :Carbon
+2022-02-28 16:45:16,137 mongo_operation INFO Creating Collection:Carbon_col
+2022-02-28 16:45:16,137 mongo_operation INFO Connection created with Mongo db atlas
+2022-02-28 16:45:16,137 mongo_operation INFO Listing all available Databases
+2022-02-28 16:45:17,048 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-02-28 16:45:17,049 mongo_operation INFO Reading csv file
+2022-02-28 16:45:17,051 mongo_operation INFO Columns of the csv file : ['Chiral indice n', 'Chiral indice m', 'Initial atomic coordinate u', 'Initial atomic coordinate v', 'Initial atomic coordinate w', "Calculated atomic coordinates u'", "Calculated atomic coordinates v'", "Calculated atomic coordinates w'"]
+2022-02-28 16:45:17,102 mongo_operation INFO list of records are there to insert
+2022-02-28 16:45:28,357 mongo_operation INFO 10721 records inserted into collection
+2022-02-28 19:20:42,915 mongo_operation INFO Creating database :Carbon
+2022-02-28 19:20:42,916 mongo_operation INFO Creating Collection:Carbon_col
+2022-02-28 19:20:42,916 mongo_operation INFO Connection created with Mongo db atlas
+2022-02-28 19:20:42,916 mongo_operation INFO Listing all available Databases
+2022-02-28 19:20:44,067 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-02-28 19:20:44,068 mongo_operation INFO Query :{"Calculated atomic coordinates w'": {'$in': ['0,089298', '0,050998']}}
+2022-02-28 19:20:44,164 mongo_operation INFO No query selected
+2022-02-28 19:32:14,985 mongo_operation INFO Creating database :Carbon
+2022-02-28 19:32:14,985 mongo_operation INFO Creating Collection:Carbon_col
+2022-02-28 19:32:14,985 mongo_operation INFO Connection created with Mongo db atlas
+2022-02-28 19:32:14,986 mongo_operation INFO Listing all available Databases
+2022-02-28 19:32:16,044 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-02-28 19:32:16,045 mongo_operation INFO No query is selected
+2022-02-28 19:32:19,404 mongo_operation ERROR Error: dictionary is not passed in the method
+2022-02-28 19:32:19,404 mongo_operation ERROR You have not entered a dictionary query: [1, 2, 3, 4] in find_all_record method
+Traceback (most recent call last):
+  File "/Users/gyana/Documents/Python/ineuron/live recordings/21_19feb_MongoDB_2/MongoDBTask/myMongo.py", line 145, in find_all_record
+    raise Exception(f"You have not entered a dictionary query: {query} in find_all_record method")
+Exception: You have not entered a dictionary query: [1, 2, 3, 4] in find_all_record method
+2022-02-28 19:44:57,322 mongo_operation INFO Creating database :Carbon
+2022-02-28 19:44:57,322 mongo_operation INFO Creating Collection:Carbon_col
+2022-02-28 19:44:57,322 mongo_operation INFO Connection created with Mongo db atlas
+2022-02-28 19:44:57,322 mongo_operation INFO Listing all available Databases
+2022-02-28 19:44:58,590 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-02-28 19:44:58,591 mongo_operation INFO No count is given
+2022-02-28 19:45:00,920 mongo_operation INFO Limit is :3
+2022-02-28 19:45:01,016 mongo_operation ERROR limit value is other than integer value
+NoneType: None
+2022-02-28 19:45:01,016 mongo_operation ERROR limit value is other than integer value
+Traceback (most recent call last):
+  File "/Users/gyana/Documents/Python/ineuron/live recordings/21_19feb_MongoDB_2/MongoDBTask/myMongo.py", line 171, in find_limit_record
+    raise Exception("limit value is other than integer value")
+Exception: limit value is other than integer value
+2022-03-01 17:48:35,386 mongo_operation INFO Creating database :Carbon
+2022-03-01 17:48:35,387 mongo_operation INFO Creating Collection:Carbon_col
+2022-03-01 17:48:35,387 mongo_operation INFO Connection created with Mongo db atlas
+2022-03-01 17:48:35,387 mongo_operation INFO Listing all available Databases
+2022-03-01 17:48:36,493 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-03-01 17:48:36,493 mongo_operation INFO present data :{'Chiral indice n': 5, 'Chiral indice m': 4}  new data : {'Initial atomic coordinate u': 'xxxx', 'Initial atomic coordinate v': 'yyyy'} count:1
+2022-03-01 17:52:07,370 mongo_operation INFO Creating database :Carbon
+2022-03-01 17:52:07,370 mongo_operation INFO Creating Collection:Carbon_col
+2022-03-01 17:52:07,370 mongo_operation INFO Connection created with Mongo db atlas
+2022-03-01 17:52:07,370 mongo_operation INFO Listing all available Databases
+2022-03-01 17:52:08,271 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-03-01 17:52:08,272 mongo_operation ERROR Error: int() argument must be a string, a bytes-like object or a real number, not 'dict'
+2022-03-01 17:52:08,272 mongo_operation ERROR Error: invalid literal for int() with base 10: 'mno'
+2022-03-01 18:01:21,526 mongo_operation INFO Creating database :Carbon
+2022-03-01 18:01:21,527 mongo_operation INFO Creating Collection:Carbon_col
+2022-03-01 18:01:21,527 mongo_operation INFO Connection created with Mongo db atlas
+2022-03-01 18:01:21,527 mongo_operation INFO Listing all available Databases
+2022-03-01 18:01:22,497 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-03-01 18:01:22,583 mongo_operation INFO One record deleted.
+2022-03-01 18:03:52,926 mongo_operation INFO Creating database :Carbon
+2022-03-01 18:03:52,926 mongo_operation INFO Creating Collection:Carbon_col
+2022-03-01 18:03:52,926 mongo_operation INFO Connection created with Mongo db atlas
+2022-03-01 18:03:52,926 mongo_operation INFO Listing all available Databases
+2022-03-01 18:03:53,860 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-03-01 18:03:53,861 mongo_operation ERROR object of type 'Cursor' has no len()
+2022-03-01 18:05:07,428 mongo_operation INFO Creating database :Carbon
+2022-03-01 18:05:07,428 mongo_operation INFO Creating Collection:Carbon_col
+2022-03-01 18:05:07,428 mongo_operation INFO Connection created with Mongo db atlas
+2022-03-01 18:05:07,429 mongo_operation INFO Listing all available Databases
+2022-03-01 18:05:08,339 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-03-01 18:05:08,533 mongo_operation INFO One record deleted.
+2022-03-01 18:06:58,921 mongo_operation INFO Creating database :Carbon
+2022-03-01 18:06:58,921 mongo_operation INFO Creating Collection:Carbon_col
+2022-03-01 18:06:58,921 mongo_operation INFO Connection created with Mongo db atlas
+2022-03-01 18:06:58,921 mongo_operation INFO Listing all available Databases
+2022-03-01 18:06:59,860 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-03-01 18:06:59,945 mongo_operation INFO No Record is there to be deleted
+2022-03-01 18:09:08,247 mongo_operation INFO Creating database :Carbon
+2022-03-01 18:09:08,247 mongo_operation INFO Creating Collection:Carbon_col
+2022-03-01 18:09:08,247 mongo_operation INFO Connection created with Mongo db atlas
+2022-03-01 18:09:08,247 mongo_operation INFO Listing all available Databases
+2022-03-01 18:09:09,155 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-03-01 18:09:09,355 mongo_operation INFO One record deleted.Available Records: 0
+2022-03-01 18:11:22,430 mongo_operation INFO Creating database :Carbon
+2022-03-01 18:11:22,430 mongo_operation INFO Creating Collection:Carbon_col
+2022-03-01 18:11:22,430 mongo_operation INFO Connection created with Mongo db atlas
+2022-03-01 18:11:22,430 mongo_operation INFO Listing all available Databases
+2022-03-01 18:11:23,324 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-03-01 18:11:24,722 mongo_operation INFO No Record is there to be deleted
+2022-03-01 18:13:41,817 mongo_operation INFO Creating database :Carbon
+2022-03-01 18:13:41,818 mongo_operation INFO Creating Collection:Carbon_col
+2022-03-01 18:13:41,818 mongo_operation INFO Connection created with Mongo db atlas
+2022-03-01 18:13:41,818 mongo_operation INFO Listing all available Databases
+2022-03-01 18:13:42,736 mongo_operation INFO Available Databases are: ['Carbon', 'Database_1', 'admin', 'local']
+2022-03-01 18:13:44,976 mongo_operation INFO One record deleted.Available Records: 10722

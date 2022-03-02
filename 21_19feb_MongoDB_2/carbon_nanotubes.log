@@ -1,0 +1,55 @@
+2022-02-23 14:34:39,269 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 14:34:41,842 INFO Database: Database_1 created
+2022-02-23 14:36:27,124 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 14:36:29,103 INFO Database: Database_1 created
+2022-02-23 14:36:33,640 INFO Collection Table_1 Created
+2022-02-23 14:36:38,561 INFO Data inserted.Total rows inserted: 1
+2022-02-23 14:37:02,939 INFO Records updated
+2022-02-23 14:37:19,544 INFO Records deleted based on query
+2022-02-23 15:03:57,920 INFO Data inserted.Total rows inserted: 10721
+2022-02-23 15:12:17,519 INFO Data inserted.Total rows inserted: 2
+2022-02-23 15:15:20,499 INFO Records updated
+2022-02-23 15:40:26,285 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 15:40:26,285 INFO Database: Database_1 created
+2022-02-23 15:40:26,286 INFO Collection Table_1 Created
+2022-02-23 15:41:45,058 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 15:41:45,058 INFO Database: Database_1 created
+2022-02-23 15:41:45,059 INFO Collection Table_1 Created
+2022-02-23 15:46:04,208 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 15:46:04,208 INFO Database: Database_1 created
+2022-02-23 15:46:04,208 INFO Collection Table_1 Created
+2022-02-23 15:49:56,089 INFO Records deleted based on query
+2022-02-23 15:51:13,361 INFO Records deleted based on query
+2022-02-23 15:58:05,215 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 15:58:05,215 INFO Database: Database_1 created
+2022-02-23 15:58:05,216 INFO Collection Table_1 Created
+2022-02-23 15:59:03,111 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 15:59:03,112 INFO Database: Database_1 created
+2022-02-23 15:59:03,113 INFO Collection Table_1 Created
+2022-02-23 16:03:17,342 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 16:03:17,343 INFO Database: Database_1 created
+2022-02-23 16:03:17,343 INFO Collection Table_1 Created
+2022-02-23 16:05:12,090 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 16:05:12,090 INFO Database: Database_1 created
+2022-02-23 16:05:12,090 INFO Collection Table_1 Created
+2022-02-23 16:06:13,052 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 16:06:13,053 INFO Database: Database_1 created
+2022-02-23 16:06:13,053 INFO Collection Table_1 Created
+2022-02-23 16:09:20,079 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 16:09:20,079 INFO Database: Database_1 created
+2022-02-23 16:09:20,080 INFO Collection Table_1 Created
+2022-02-23 16:10:05,067 INFO Connection Established.
+MongoClient(host=['cluster0-shard-00-02.1mv2i.mongodb.net:27017', 'cluster0-shard-00-00.1mv2i.mongodb.net:27017', 'cluster0-shard-00-01.1mv2i.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-ahm1x1-shard-0', tls=True)
+2022-02-23 16:10:05,067 INFO Database: Database_1 created
+2022-02-23 16:10:05,068 INFO Collection Table_1 Created
